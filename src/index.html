@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Pixel Lab</title>
+</head>
+<body>
+
+<!--        Header-Starts      -->
+<header class="w-full">
+    <div class="max-w-7xl flex justify-between items-center mx-auto px-6 py-12">
+        <!--LOGO-->
+        <div>
+            <a href="#">
+                <img src="assets/Logo.webp" alt="Logo" class="h-8">
+            </a>
+        </div>
+
+        <!--NAV-->
+        <nav class="hidden lg:block">
+            <ul class="flex items-center lg:gap-14 gap-6 tracking-wider text-lg font-medium font-poppins">
+                <li class="text-gray-700 hover:text-orange-500 font-abel"><a href="">Home</a></li>
+                <li class="hover:text-orange-500"><a href="">About Us</a></li>
+                <li class="hover:text-orange-500"><a href="">Our App</a></li>
+                <li class="hover:text-orange-500"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- BUTTONS -->
+        <div class="hidden md:flex text-lg font-medium tracking-wide gap-4 font-poppins">
+            <button class="text-black hover:text-orange-500"><a href="">Log in</a></button>
+            <button class="bg-gradient-to-r from-orange-500 to-orange-400 hover:from-orange-600 hover:to-orange-700 text-white py-2 px-4 lg:py-3 lg:px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                Sign up
+            </button>
+        </div>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button class="lg:hidden text-2xl">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</header>
+<!--        Header-Ends          -->
+
+<!--        Body-Starts     -->
+<main>
+    <!--        Hero-Starts          -->
+    <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center px-6 py-12 gap-12">
+        <!-- Left -->
+        <div class="flex flex-col justify-start items-start text-left space-y-6 font-poppins w-full md:w-1/2">
+            <h1 class="font-black text-4xl sm:text-5xl lg:text-[63px] text-[#0B1B35] leading-tight tracking-tight">
+                We boost<br>
+                growth for your startup business
+            </h1>
+            <p class="text-black text-base sm:text-lg font-medium leading-relaxed max-w-md">
+                Our goal is top at the heart of creativity services industry
+                as a digital creator. In has a after comment
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center gap-6 text-lg">
+                <button class="bg-[#ff6600] hover:bg-orange-400 text-white font-medium py-3 px-6 rounded-full shadow-md hover:shadow-lg transition-all text-[16px] duration-300">
+                    Get Started
+                </button>
+                <button class="flex items-center font-abel gap-3">
+                    <img src="assets/Learn%20More%20icon.png" alt="">Learn More
+                </button>
+            </div>
+        </div>
+
+        <!-- Right -->
+        <div class="w-full md:w-1/2">
+            <img src="assets/Group%2032.png" class="w-full h-auto" alt="">
+        </div>
+    </div>
+    <!--        Hero-Ends            -->
+
+    <!--        Service-Starts      -->
+    <div class="max-w-7xl mx-auto text-center mb-20 px-6 space-y-4">
+        <h4 class="font-abel tracking-[4px] text-gray-500">SERVICES</h4>
+        <h1 class="lg:text-5xl text-2xl font-abel sm:text-4xl font-bold mb-12 text-gray-800">Our Vision & Our Goal</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+            <!-- Service Cards -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+                <div class="p-14 flex flex-col items-center gap-6">
+                    <div class="w-14 h-14 bg-black rounded-lg flex items-center justify-center">
+                        <i class="fas fa-paint-brush text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold text-gray-800 font-abel">Graphic Design</h3>
+                    <p class="text-gray-600 font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <a href="#" class="bg-[#ff6600] text-white py-2 px-6 rounded-full shadow-md hover:bg-orange-600 transition font-medium font-poppins">Learn More</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+                <div class="p-14 flex flex-col items-center gap-6">
+                    <div class="w-14 h-14 bg-black rounded-lg flex items-center justify-center">
+                        <i class="fas fa-video text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-abel font-bold text-gray-800">Video Editing</h3>
+                    <p class="text-gray-600 font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <a href="#" class="bg-[#ff6600] font-poppins text-white py-2 px-6 rounded-full shadow-md hover:bg-orange-600 transition font-medium">Learn More</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+                <div class="p-14 flex flex-col items-center gap-6">
+                    <div class="w-14 h-14 bg-black rounded-lg flex items-center justify-center">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold text-gray-800 font-abel">Digital Marketing</h3>
+                    <p class="text-gray-600 font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <a href="#" class="bg-[#ff6600] text-white py-2 px-6 rounded-full shadow-md hover:bg-orange-600 transition font-medium font-poppins">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--        Service-Ends        -->
+
+    <!--        Explore-Starts      -->
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4 items-center px-6 py-16">
+        <div class="flex flex-col w-full md:w-1/2 space-y-24">
+            <div class="space-y-6">
+                <h2 class="text-2xl text-[#1E0E62] font-abel sm:text-3xl font-medium">Many Blocks and <br> Components</h2>
+                <p class="font-normal w-96 font-poppins text-base sm:text-lg lg:text-[16px] text-gray-500 leading-[30px]">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</p>
+            </div>
+              <button class="font-poppins w-40 px-6 py-2 border border-gray-300 rounded-full text-gray-700 hover:bg-gray-100 transition">
+                Explore
+            </button>
+        </div>
+        <div class="w-full md:w-1/2">
+            <img src="assets/Video%20Player.png" class="w-full h-auto" alt="">
+        </div>
+    </div>
+    <!--        Explore-Ends      -->
+
+
+    <!--        Testimonials-Starts      -->
+    <div class="text-center mb-16 mt-20 px-6 space-y-4">
+        <h4 class="uppercase text-gray-400 text-sm font-abel tracking-[4px]">Testimonials</h4>
+        <h2 class="text-3xl sm:text-5xl font-semibold text-gray-800 font-abel">What Clients say about us</h2>
+    </div>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6 font-poppins">
+        <!-- Testimonial Cards -->
+        <div class="flex items-start gap-6">
+            <img src="assets/1.png" class="w-[60px] h-[60px] rounded-md" alt="">
+            <div class="space-y-12 w-3/4">
+                <p class="text-black leading-relaxed">Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support</p>
+                <h4 class="uppercase text-gray-400 tracking-widest text-sm font-medium">Rayhan Curran</h4>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-6">
+            <img src="assets/2.png" class="w-[60px] h-[60px] rounded-md" alt="">
+            <div class="space-y-12 w-3/4">
+                <p class="text-black leading-relaxed">As a business targeting high net worth individuals, we wanted a slick design.</p>
+                <h4 class="uppercase text-gray-400 tracking-widest text-sm font-medium">Kayley Frame</h4>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-6">
+            <img src="assets/3.png" class="w-[60px] h-[60px] rounded-md" alt="">
+            <div class="space-y-12 w-3/4">
+                <p class="text-black leading-relaxed">The most important part of the Startup Framework is the samples.</p>
+                <h4 class="uppercase text-gray-400 tracking-widest text-sm font-medium">Gene Whitfield</h4>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-6">
+            <img src="assets/4.png" class="w-[60px] h-[60px] rounded-md" alt="">
+            <div class="space-y-12 w-3/4">
+                <p class="text-black leading-relaxed">I’ve built my website with Startup in one day, and it was ready-to-go.</p>
+                <h4 class="uppercase text-gray-400 tracking-widest text-sm font-medium">Allan Kim</h4>
+            </div>
+        </div>
+    </div>
+    <!--        Testimonials-Ends        -->
+</main>
+
+<!-- Team Section -->
+<div class="text-center mt-20 mb-12 space-y-4">
+    <h4 class="uppercase tracking-[4px] text-gray-400 text-sm font-abel">Our Team</h4>
+    <h2 class="text-3xl sm:text-5xl font-semibold text-gray-800 font-abel">Meet The Team</h2>
+</div>
+
+<section class="py-16">
+    <div class="flex flex-wrap justify-center gap-10 max-w-7xl mx-auto px-6">
+        <!-- Team Card -->
+        <div class="w-72 bg-white text-center border-2 border-[#EBEAED] rounded-lg hover:scale-105 transition-transform duration-300">
+            <div class="p-6 font-poppins">
+                <img src="assets/Mask.png" alt="" class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-md">
+                <h3 class="my-6 text-lg font-semibold text-indigo-900">Vanessa Laird</h3>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">UI Designer</p>
+            </div>
+            <div class="grid grid-cols-3 text-orange-500">
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-github"></i></div>
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="border-t-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-pinterest"></i></div>
+            </div>
+        </div>
+
+        <div class="w-72 bg-white text-center border-2 border-[#EBEAED] rounded-lg hover:scale-105 transition-transform duration-300">
+            <div class="p-6 font-poppins">
+                <img src="assets/Mask%202.png" alt="" class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-md">
+                <h3 class="my-6 text-lg font-semibold text-indigo-900">Mason Campbell</h3>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">UI Designer</p>
+            </div>
+            <div class="grid grid-cols-3 text-orange-500">
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-github"></i></div>
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="border-t-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-pinterest"></i></div>
+            </div>
+        </div>
+
+        <div class="w-72 bg-white text-center border-2 border-[#EBEAED] rounded-lg hover:scale-105 transition-transform duration-300">
+            <div class="p-6 font-poppins">
+                <img src="assets/Mask%203.png" alt="" class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-white shadow-md">
+                <h3 class="my-6 text-lg font-semibold text-indigo-900">Irea Evans</h3>
+                <p class="text-sm text-gray-500 uppercase tracking-widest font-medium">Client Manager</p>
+            </div>
+            <div class="grid grid-cols-3 text-orange-500">
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-github"></i></div>
+                <div class="border-t-2 border-r-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="border-t-2 border-[#EBEAED] p-3 cursor-pointer transition-all duration-300 hover:bg-orange-500 hover:text-white hover:scale-110"><i class="fa-brands fa-pinterest"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<div class="max-w-7xl mx-auto text-center space-y-4 py-16 px-6">
+    <h6 class="text-sm font-abel text-gray-500 tracking-[4px]">Join Us</h6>
+    <h2 class="text-3xl sm:text-5xl font-abel">Subscribe Our Newsletter</h2>
+</div>
+
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 px-6 pb-20">
+    <div class="w-full md:w-1/2 lg:w-[30%]]">
+        <img src="assets/Group.png" alt="">
+    </div>
+    <div class="w-full md:w-1/2 lg:w-[70%] flex flex-col space-y-12 pt-8">
+        <p class="text-black text-base sm:text-lg font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <form class="space-y-12">
+            <input type="email" placeholder="Your E-mail here..."
+                   class="placeholder-black w-full px-14 py-6 font-poppins text-xl text-black rounded-full shadow-lg border border-gray-200 outline-none focus:ring-2 focus:ring-orange-400" />
+            <button type="submit"
+                    class="w-full bg-orange-500 font-poppins text-white font-medium px-6 py-4 rounded-xl shadow-md hover:bg-orange-600 transition">
+                Subscribe Our Newsletter
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-b border-[#ebeaed] py-8 ">
+    <div class="flex items-center gap-4">
+        <img src="assets/LogoBottom.png" alt="">
+        <p class="text-sm font-poppins text-[#1e0e62]">© 2020 Epixelab. All rights reserved.</p>
+    </div>
+    <ul class="flex gap-6 md:gap-12 mt-6 md:mt-0 text-sm text-[#1e0e62] font-poppins">
+        <li class="hover:text-orange-500"><a href="">Portfolio</a></li>
+        <li class="hover:text-orange-500"><a href="">How it Works</a></li>
+        <li class="hover:text-orange-500"><a href="">Pricing</a></li>
+        <li class="hover:text-orange-500"><a href="">About</a></li>
+        <li class="hover:text-orange-500"><a href="">Login</a></li>
+    </ul>
+</div>
+
+<div class="max-w-7xl mx-auto py-8">
+    <h4 class="text-gray-400 text-sm font-poppins text-center lg:text-left">Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</h4>
+</div>
+
+</body>
+</html>
